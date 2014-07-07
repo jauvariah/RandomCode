@@ -1,0 +1,31 @@
+Problem Analysis
+
+Problem Statement: Calculate the number of boxes of pencils, pens, and erasers required for a company of certain number of employees. 
+
+Input: Number of Employees, Number of Senior Engineers, Number of Junior Engineers
+Output: Number of boxes of pencils requires, Number of boxes of pens requires, Number of boxes of erasers requires.
+
+Top Down Decomposition
+
+Main
+	Read in data
+		Read in: total number of employees
+		Read in: percentage of senior engineers
+		Read in: percentage of junior engineers
+	Setup Constants
+		Setup Constants for number of pencils in a box
+		Setup Constants for number of pens in a box
+		Setup Constants for number of erasers in a box
+	Calculate Number of Workers
+		Calculate: percentage of administrative workers
+		Calculate: Number of Junior Engineers
+		Calculate: Number of Senior Engineers
+		Calculate: Number of Administrative Workers
+	Calculate Stationary Required
+		Calculate: Boxes of pencils required
+		Calculate: Boxes of pens required
+		Calculate: Boxes of erasers required
+	Output:
+		Output: Boxes of pencils required
+		Output: Boxes of pens required
+		Output: Boxes of erasers required

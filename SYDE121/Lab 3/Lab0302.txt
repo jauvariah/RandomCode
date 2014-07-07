@@ -1,0 +1,6 @@
+1. 	The program stops running after the entering 0 as the int_divisor. 
+	The program does not stop running after entering 0.0 as the double_divisor. 
+	The program does not stop running after entering a negative number as the sqrt_arg. 
+	
+2. 	The output value is displayed as 1.#INF after entering 0.0 as the double_divisor.
+	The output value is displayed as -1.#INF after entering a negative number as the sqrt_arg.

@@ -1,0 +1,5 @@
+Exercise 3
+
+a) The largest value of n that the program can correctly handle is 12.
+b) When the program breaks, the displayed output is incorrect.
+c) After changing the unsigned int variable into int type, the largest value of n that the program can correctly handle is still 12. 

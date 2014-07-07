@@ -1,0 +1,10 @@
+Lab0102
+
+Explanations for Step 2
+
+a) The FOR loop now starts at i=0 and ends at i=10, instead of i=9.
+b) All the outputs printed are now cascaded into one line
+c) The FOR loop only outputs when i is an odd number
+d) Syntax error. i+ is not an acceptable syntax
+e) Syntax error. Semi-colon is an indispensable delimiter in C++
+f) Syntax error.

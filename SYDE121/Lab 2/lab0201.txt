@@ -1,0 +1,14 @@
+Response for step 4
+
+a) the_int = -900, the_double = 1.11111
+b) the_int = 4444, the_double = 1.11111
+c) the_int = 4444, the_double = 12345
+d) the_int = 876, the_double = 543
+e) the_int = 4444, the_double = 1.11111
+f) the_int = 12, the_double = 0.3456
+g) the_int = -12, the_double = 1.11111
+h) the_int = 100, the_double = 1.11111
+
+5. The two observations that I have made are, int types only will take positive and negative integers. When assigning a extraordinarily large integer to the_int variable, the compiler will disregard such assignment. 
+When assigning invalid strings into the_double variable, the compiler will also bypass the assignment.
+When assigning two separate numbers with a space to the_int variable, the first number will be assigned to the_int and the second number will be assigned to the_double. 

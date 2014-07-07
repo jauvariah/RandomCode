@@ -1,0 +1,16 @@
+Question 12
+
+public static boolean hasAnagrams(final String[] strings){
+		for (int i=0; i<strings.length-1; i++){
+			for (int j=i+1; j<strings.length; j++){
+				char [] string1 = strings[i].toLowerCase().toCharArray();
+				char [] string2 = strings[j].toLowerCase().toCharArray();
+				Arrays.sort(string1);
+				Arrays.sort(string2);
+				if (Arrays.equals(string1, string2)){
+					return true;
+				}
+			}
+		}
+		return false;
+	}
