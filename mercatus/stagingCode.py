@@ -1,0 +1,7 @@
+paragraph = [u'The Price Chopper iPad app, which is an extension of their successful iOS and Android apps, is another example of Price Chopper leveraging its investment in the Mercatus Integrated Commerce(TM) Platform. This single platform will be instrumental in unifying all of their digital marketing channels, delivers consistent branding across each channel, and streamlines operations.\nA customer-centric grocery retailer, Price Chopper delivers innovative solutions that engage their customers and build brand loyalty. \u201cPartnering with Mercatus to tap into their retail industry expertise and insight has been pivotal to our digital engagement strategy,\u201d explains Heidi Reale, Director of Shopper and Digital Marketing, Price Chopper. \u201cOur customers are seeking technology solutions to help them simplify their busy lives, so Price Chopper is working to empower them with multiple digital channels to be more efficient\u2013anytime, anywhere.\u201d', '', u'We partnered with Mercatus Technologies to provide the Price Chopper grocery chain and its 119 locations in the US a new web and CMS foundation incorporating data-driven features such as e-coupons, shopping lists, and loyalty programs/registration.']
+
+#output_no_encoding = "Full Paragraph: " + paragraph[0] + "\n \n"
+output = "Full Paragraph: " + paragraph[0].encode('utf-8') + "\n \n"
+
+#print output_no_encoding
+print output
