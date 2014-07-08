@@ -1,0 +1,8 @@
+write a simple program to solve the following questions, using a different language for each - e.g. java/c/c++/python/ruby?
+
+1. Write a function to reverse a string (Wrote in Java)
+(example input: medicine, example output: enicidem)
+
+
+2. Find the largest int value from an int array (Wrote in Python)
+(example input: [3,6,2,7,4,9,2,1], example output: 9)
