@@ -1,0 +1,84 @@
+We want to write a program to represent the concept of friendship.
+Please implement the following methods for this concept along with
+unit tests in your preferred language and email me back with what is
+completed in two hours from agreed upon start time (or earlier if completed sooner) 
+with the files or a link to a gist or github location.
+
+Please feel free to call or text me with questions while working: 510 225 5655.
+
+
+method name: makeFriend
+method return type: void
+method parameters: name1 of type string, name2 of type string
+   // This method takes 2 string parameters and
+   // makes them a "friend" of each other.
+   //
+   // Note: The order of names does not matter
+   // Note: Don't forget to write tests to have good test coverage for this
+
+
+method name:   unmakeFriend
+method return type: void
+method parameters: name1 of type string, name2 of type string
+   // This method takes 2 String parameters and
+   // makes them no longer friends of each other.
+   //
+   // Note: The order of names does not matter
+   // Note: Don't forget to write tests to have good test coverage for this
+
+
+method name:   getDirectFriends
+method return type: collection of string names
+method parameters: name of type string
+   // This method takes a single argument (name) and
+   // returns all the immediate "friends" of that name as an array of strings
+   //
+   // For example, A & B are friends, B & C are friends and C & D are friends.
+   // getDirectFriends(B) would return A and C
+   // getDirectFriends(D) would return C
+   //
+   // Note: It should not return duplicate names
+   // Note: Don't forget to write tests to have good test coverage for this
+
+
+method name:   getIndirectFriends
+method return type: collection of string names
+method parameters: name of type string
+   // This method takes a single argument (name) and
+   // returns all the indirect "friends" of that name as an array of strings
+   //
+   // For example, A & B are friends, B & C are friends and C & D are friends.
+   // getInirectFriends(A) would return C and D
+   //
+   // Note: It should not return duplicate names
+   // Note: Don't forget to write tests to have good test coverage
+for this getIndirectFriends(name)
+
+
+Please implement unit tests with your solution.  Here is one example
+of a unit test to implement, but please add more:
+
+method name: testGetDirectFriends
+method return type: void
+method parameters: void
+ // Create a new friendship
+ // call makeFriend on "Aaron" and "Bella"
+ // call makeFriend on "Bella" and "Cindy"
+ // call makeFriend on "Bella" and "David"
+ // call makeFriend on "David" and "Elizabeth"
+ // call makeFriend on "Cindy" and "Frank"
+ // call getDirectFriends with "David" as the argument
+ // assert that David's direct friends are "Bella" and "Elizabeth"
+
+Please note:
+
+* getIndirectFriends isn’t just 1 level of indirection, but goes
+down the chain (If A and B are friends, and B and C, and C and D,
+getIndirectFriends(A) not only returns C but also D).
+
+* feel free to add any new methods or classes to help implement the
+given methods.
+
+* please use asserts in unit tests, focus on unit testing
+getIndirectFriends(), and add tests for the other methods as time
+permits.
