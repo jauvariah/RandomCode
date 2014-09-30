@@ -15,3 +15,18 @@ A = [2,0,1,4,1,5]
 (i1, j1), (i2, j2), ... (ik, jk)
 Output:
 [sum1, sum2, ... sumk]
+
+Onsite:
+
+1. What does the following function accomplish?
+int foo (int x){
+    int n;
+    for (n=0; n&=x; n++){}
+    return n;
+}
+
+2. How would you build a monitoring system for internal usage.
+
+3. Build test cases for an automated bidding system. 
+
+4. Given an array of integers, and a sum. Write a function that returns a subset of the array with the given sum. 
