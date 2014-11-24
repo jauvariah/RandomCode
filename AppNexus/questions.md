@@ -1,21 +1,27 @@
 #Technical Screening
-1. Given two array of same size integers, A and B. If A[i] > B[i], score+=1, if A[i] == B[i] score +=0, if A[i] < B[i], score -= 1. How to arrange the array for maximum score. 
+1. Given two array of same size integers, A and B. If A[i] > B[i], score+=1, if A[i] == B[i] score +=0, if A[i] < B[i], score -= 1 How to arrange the array for maximum score. 
 
 2. 100 Door Question: http://www.techinterview.org/post/526370758/100-doors-in-a-row/
 
 3. 25 Race Horses question: http://www.programmerinterview.com/index.php/puzzles/25-horses-3-fastest-5-races-puzzle/
 
 4. Subarray problem:
+
 >Find the sum of integers in array within a given range(i,j)
 
 >Input:
+
 >A = [2,0,1,4,1,5]
+
 >(i1, j1) = (2,4)
+
 >(i2, j2) = (0,4)
 
-(i1, j1), (i2, j2), ... (ik, jk)
-Output:
-[sum1, sum2, ... sumk]
+>(i1, j1), (i2, j2), ... (ik, jk)
+
+>Output:
+
+>[sum1, sum2, ... sumk]
 
 #Onsite Screening
 
